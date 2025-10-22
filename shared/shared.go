@@ -5,10 +5,10 @@ package shared
 import (
 	"encoding/json"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/packages/param"
-	"github.com/openai/openai-go/v3/packages/respjson"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/klippx/openai-go/v3/internal/apijson"
+	"github.com/klippx/openai-go/v3/packages/param"
+	"github.com/klippx/openai-go/v3/packages/respjson"
+	"github.com/klippx/openai-go/v3/shared/constant"
 )
 
 // aliased to make [param.APIUnion] private when embedding

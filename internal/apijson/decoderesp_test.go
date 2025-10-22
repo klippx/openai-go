@@ -2,9 +2,10 @@ package apijson_test
 
 import (
 	"encoding/json"
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/packages/respjson"
 	"testing"
+
+	"github.com/klippx/openai-go/v3/internal/apijson"
+	"github.com/klippx/openai-go/v3/packages/respjson"
 )
 
 type StructWithNullExtraField struct {

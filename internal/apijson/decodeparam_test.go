@@ -3,10 +3,11 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/packages/param"
 	"reflect"
 	"testing"
+
+	"github.com/klippx/openai-go/v3/internal/apijson"
+	"github.com/klippx/openai-go/v3/packages/param"
 )
 
 func TestOptionalDecoders(t *testing.T) {

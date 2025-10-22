@@ -13,15 +13,15 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/openai/openai-go/v3/internal/apiform"
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/internal/apiquery"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/pagination"
-	"github.com/openai/openai-go/v3/packages/param"
-	"github.com/openai/openai-go/v3/packages/respjson"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/klippx/openai-go/v3/internal/apiform"
+	"github.com/klippx/openai-go/v3/internal/apijson"
+	"github.com/klippx/openai-go/v3/internal/apiquery"
+	"github.com/klippx/openai-go/v3/internal/requestconfig"
+	"github.com/klippx/openai-go/v3/option"
+	"github.com/klippx/openai-go/v3/packages/pagination"
+	"github.com/klippx/openai-go/v3/packages/param"
+	"github.com/klippx/openai-go/v3/packages/respjson"
+	"github.com/klippx/openai-go/v3/shared/constant"
 )
 
 // VideoService contains methods and other services that help with interacting with
@@ -50,7 +50,6 @@ func (r *VideoService) New(ctx context.Context, body VideoNewParams, opts ...opt
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodPost, path, body, &res, opts...)
 	return
 }
-
 
 // Create Video and Poll for Completion
 //

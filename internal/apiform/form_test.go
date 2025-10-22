@@ -2,12 +2,13 @@ package apiform
 
 import (
 	"bytes"
-	"github.com/openai/openai-go/v3/packages/param"
 	"io"
 	"mime/multipart"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/klippx/openai-go/v3/packages/param"
 )
 
 func P[T any](v T) *T { return &v }

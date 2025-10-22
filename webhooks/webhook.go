@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/respjson"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/klippx/openai-go/v3/internal/apijson"
+	"github.com/klippx/openai-go/v3/internal/requestconfig"
+	"github.com/klippx/openai-go/v3/option"
+	"github.com/klippx/openai-go/v3/packages/respjson"
+	"github.com/klippx/openai-go/v3/shared/constant"
 )
 
 // WebhookService contains methods and other services that help with interacting

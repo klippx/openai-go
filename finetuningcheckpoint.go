@@ -3,7 +3,7 @@
 package openai
 
 import (
-	"github.com/openai/openai-go/v3/option"
+	"github.com/klippx/openai-go/v3/option"
 )
 
 // FineTuningCheckpointService contains methods and other services that help with
